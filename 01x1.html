@@ -1,0 +1,56 @@
+<link href="https://cdn.rawgit.com/deanblogs/IDTB/master/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/deanblogs/IDTB/master/bootstrap.min.css" /> 
+    <style>
+    body { font-family:'Roboto'; background-color:#fafafa;}
+	.container { margin-top:150px;}
+    </style>
+<ul class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="active"><a href="#tab-1" aria-controls="home" role="tab" data-toggle="tab">Latino</a></li>
+  <li role="presentation"><a href="#tab-2" aria-controls="profile" role="tab" data-toggle="tab">Subtitulado</a></li>
+  <li role="presentation"><a href="#tab-3" aria-controls="profile" role="tab" data-toggle="tab">Poster</a></li>
+</ul>
+
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="tab-1">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.2.0/plyr.css"/>
+    <video class='js-player' poster="thumbnail.jpg" controls playsinline>
+  <!-- Calidad -->
+  <source src="https://lh3.googleusercontent.com/8tzFnz0lOKG-Ouj0LSDZtGqE-N4oE6akmzCX75K6tUZF_-56QUCqVBZOkxa6aizEQDgZv3z2luprBq7j-TYFIXMY2g-vdJbjt7p9tfaF5WwuphOM_Zs4YjXSQA8-Cyval1vL84t8zw=m18" size="360" type="video/mp4">
+  <source src="https://lh3.googleusercontent.com/8tzFnz0lOKG-Ouj0LSDZtGqE-N4oE6akmzCX75K6tUZF_-56QUCqVBZOkxa6aizEQDgZv3z2luprBq7j-TYFIXMY2g-vdJbjt7p9tfaF5WwuphOM_Zs4YjXSQA8-Cyval1vL84t8zw=m22" size="720" type="video/mp4">
+  <source src="https://lh3.googleusercontent.com/8tzFnz0lOKG-Ouj0LSDZtGqE-N4oE6akmzCX75K6tUZF_-56QUCqVBZOkxa6aizEQDgZv3z2luprBq7j-TYFIXMY2g-vdJbjt7p9tfaF5WwuphOM_Zs4YjXSQA8-Cyval1vL84t8zw=m37" size="1080" type="video/mp4">
+</video>
+<script src="https://cdn.plyr.io/3.2.0/plyr.js"></script>
+<script>/*<![CDATA[*/const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));/*]]>*/</script>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tab-2">
+      <h3>Tab 2</h3>
+      <p>Tab Content 2</p>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tab-3">
+   <img src="https://image.ibb.co/d8HsNx/1.jpg" width="100%" height="360" />
+  </div>
+</div>
+ <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>  
+    <script src="https://cdn.rawgit.com/deanblogs/IDTB/master/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/deanblogs/IDTB/master/jquery.responsivetabs.js"></script>
+    <script>
+        $(function() {
+            $('.nav-tabs').responsiveTabs();
+        });
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
